@@ -31,12 +31,12 @@ pipeline {
                 '''
             }
         }
-
         stage('Deploy App') {
             steps {
                 sh '''
-                    nohup /usr/bin/node app.js > output.log 2>&1 &
-                    sleep 2
+                    pm2 delete all || true
+                    pm2 start app.js
+                    pm2 save
                 '''
             }
         }
