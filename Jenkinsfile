@@ -35,10 +35,7 @@ pipeline {
         stage('Deploy App') {
             steps {
                 sh '''
-                    mkdir -p ${APP_DIR}
-                    cp -r . ${APP_DIR}
-                    cd ${APP_DIR}
-                    nohup sudo node app.js > /tmp/app.log 2>&1 &
+                    nohup /usr/bin/node app.js > output.log 2>&1 &
                     sleep 2
                 '''
             }
