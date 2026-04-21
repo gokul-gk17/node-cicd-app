@@ -1,0 +1,11 @@
+{
+  "name": "node-cicd-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app deployed via Jenkins",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Gokul",
+  "license": "ISC"
+}
