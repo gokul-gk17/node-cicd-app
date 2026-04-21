@@ -7,7 +7,6 @@ pipeline {
     }
 
     stages {
-
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
@@ -20,7 +19,6 @@ pipeline {
                 sh 'npm install'
             }
         }
-
         stage('Stop Existing App') {
             steps {
                 sh '''
@@ -40,7 +38,6 @@ pipeline {
                 '''
             }
         }
-
         stage('Verify') {
             steps {
                 sh 'curl -s -o /dev/null -w "HTTP Status: %{http_code}" http://localhost:${APP_PORT}'
