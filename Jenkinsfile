@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        APP_PORT = '80'
+        APP_PORT = '3000'
         APP_DIR  = '/home/ubuntu/node-cicd-app'
     }
 
