@@ -38,7 +38,7 @@ const server = http.createServer((req, res) => {
           </p>
 
           <p>
-            This project demonstrates:
+            This project demonstrates :
           </p>
 
           <ul>
