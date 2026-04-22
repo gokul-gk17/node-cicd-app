@@ -22,7 +22,7 @@ const server = http.createServer((req, res) => {
         ">
 
           <h2 style="text-align: center; color: #007bff;">
-            🚀 CI/CD Project Submission
+             CI/CD Project Submission
           </h2>
 
           <p style="text-align: right;">
@@ -42,11 +42,11 @@ const server = http.createServer((req, res) => {
           </p>
 
           <ul>
-            <li>🔹 GitHub Integration</li>
-            <li>🔹 Automated Build & Deployment</li>
-            <li>🔹 Jenkins Pipeline</li>
-            <li>🔹 PM2 Process Management</li>
-            <li>🔹 Live Public Deployment</li>
+            <li> GitHub Integration</li>
+            <li> Automated Build & Deployment</li>
+            <li> Jenkins Pipeline</li>
+            <li> PM2 Process Management</li>
+            <li> Live Public Deployment</li>
           </ul>
 
           <p>
@@ -61,12 +61,12 @@ const server = http.createServer((req, res) => {
           <br/>
 
           <p><b>Sincerely,</b></p>
-          <p><b>Your Name</b></p>
+          <p><b>Gokul</b></p>
 
           <hr/>
 
           <p style="text-align: center; color: gray; font-size: 14px;">
-            ⚙️ Deployed via Jenkins | 🌐 AWS EC2 | 🔁 Auto CI/CD Enabled <br/>
+             Deployed via Jenkins | AWS EC2 | Auto CI/CD Enabled <br/>
             ⏱ Last Updated: ${new Date().toLocaleString()}
           </p>
 
