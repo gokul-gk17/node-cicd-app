@@ -38,7 +38,7 @@ const server = http.createServer((req, res) => {
           </p>
 
           <p>
-            This project demonstrates :
+            This project demonstrates:
           </p>
 
           <ul>
@@ -67,7 +67,7 @@ const server = http.createServer((req, res) => {
 
           <p style="text-align: center; color: gray; font-size: 14px;">
              Deployed via Jenkins | AWS EC2 | Auto CI/CD Enabled <br/>
-            ⏱ Last Updated: ${new Date().toLocaleString()}
+             Last Updated: ${new Date().toLocaleString()}
           </p>
 
         </div>
